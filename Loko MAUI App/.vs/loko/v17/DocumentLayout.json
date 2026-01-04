@@ -1,0 +1,599 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\platforms\\ios\\info.plist||{4B819833-C3E7-40A8-B4AF-4F7F5E6B913F}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\platforms\\ios\\info.plist||{4B819833-C3E7-40A8-B4AF-4F7F5E6B913F}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\lokomaui.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\lokomaui.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.iOS.Sdk.net8.0_18.0\\18.0.8303\\tools\\msbuild\\iOS\\Xamarin.Shared.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\niyazi.piriyev\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.60\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\platforms\\ios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\platforms\\ios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.113\\tools\\Xamarin.Android.Common.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\viewmodels\\mappageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\viewmodels\\mappageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\viewmodels\\connectionpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\viewmodels\\connectionpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\helpers\\apppreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\helpers\\apppreferences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\views\\mappage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\views\\mappage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\views\\mappage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\views\\mappage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\views\\osmpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\views\\osmpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\services\\implementations\\bleconnectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\services\\implementations\\bleconnectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\helpers\\toasthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\helpers\\toasthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\framework\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\framework\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\framework\\basecontentpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\framework\\basecontentpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\services\\interfaces\\ibleconnectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\services\\interfaces\\ibleconnectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\views\\connectionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\views\\connectionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\views\\connectionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\views\\connectionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\views\\downloadmappage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\views\\downloadmappage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\views\\myofflinemapspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\views\\myofflinemapspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\views\\osmpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\views\\osmpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\services\\implementations\\devicedetailsdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\services\\implementations\\devicedetailsdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\controls\\renderers\\extendedmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\controls\\renderers\\extendedmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\platforms\\android\\permissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\platforms\\android\\permissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\services\\implementations\\tiledownloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\services\\implementations\\tiledownloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\services\\downloadareamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\services\\downloadareamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\services\\implementations\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\services\\implementations\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\controls\\renderers\\extendedpin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\controls\\renderers\\extendedpin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\controls\\renderers\\extendedmapsuiview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\controls\\renderers\\extendedmapsuiview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|c:\\users\\niyazi.piriyev\\music\\newloko\\newloko\\lokomaui\\services\\implementations\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|LokoMaui\\LokoMaui.csproj|solutionrelative:lokomaui\\services\\implementations\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.iOS.Sdk.net8.0_17.5\\17.5.8030\\tools\\msbuild\\iOS\\Xamarin.Shared.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MapPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\ViewModels\\MapPageViewModel.cs",
+              "RelativeDocumentMoniker": "LokoMaui\\ViewModels\\MapPageViewModel.cs",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\ViewModels\\MapPageViewModel.cs",
+              "RelativeToolTip": "LokoMaui\\ViewModels\\MapPageViewModel.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAUwGYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T18:10:36.894Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConnectionPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\ViewModels\\ConnectionPageViewModel.cs",
+              "RelativeDocumentMoniker": "LokoMaui\\ViewModels\\ConnectionPageViewModel.cs",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\ViewModels\\ConnectionPageViewModel.cs",
+              "RelativeToolTip": "LokoMaui\\ViewModels\\ConnectionPageViewModel.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAgwGoAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T11:07:07.889Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BLEConnectionService.cs",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Services\\Implementations\\BLEConnectionService.cs",
+              "RelativeDocumentMoniker": "LokoMaui\\Services\\Implementations\\BLEConnectionService.cs",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Services\\Implementations\\BLEConnectionService.cs",
+              "RelativeToolTip": "LokoMaui\\Services\\Implementations\\BLEConnectionService.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAjwKsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T07:47:33.14Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "LokoMaui\\Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "LokoMaui\\Platforms\\Android\\AndroidManifest.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-10-22T05:50:06.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Xamarin.Shared.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.iOS.Sdk.net8.0_18.0\\18.0.8303\\tools\\msbuild\\iOS\\Xamarin.Shared.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.iOS.Sdk.net8.0_18.0\\18.0.8303\\tools\\msbuild\\iOS\\Xamarin.Shared.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.iOS.Sdk.net8.0_18.0\\18.0.8303\\tools\\msbuild\\iOS\\Xamarin.Shared.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.iOS.Sdk.net8.0_18.0\\18.0.8303\\tools\\msbuild\\iOS\\Xamarin.Shared.targets",
+              "ViewState": "AgIAABACAAAAAAAAAAAuwCkCAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-10-13T05:20:00.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Platforms\\iOS\\Program.cs",
+              "RelativeDocumentMoniker": "LokoMaui\\Platforms\\iOS\\Program.cs",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Platforms\\iOS\\Program.cs",
+              "RelativeToolTip": "LokoMaui\\Platforms\\iOS\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T04:57:27.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Info.plist",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Platforms\\iOS\\Info.plist",
+              "RelativeDocumentMoniker": "LokoMaui\\Platforms\\iOS\\Info.plist",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Platforms\\iOS\\Info.plist",
+              "RelativeToolTip": "LokoMaui\\Platforms\\iOS\\Info.plist",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-13T04:56:47.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\App.xaml",
+              "RelativeDocumentMoniker": "LokoMaui\\App.xaml",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\App.xaml",
+              "RelativeToolTip": "LokoMaui\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-13T04:56:41.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Xamarin.Android.Common.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.113\\tools\\Xamarin.Android.Common.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.113\\tools\\Xamarin.Android.Common.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.113\\tools\\Xamarin.Android.Common.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.113\\tools\\Xamarin.Android.Common.targets",
+              "ViewState": "AgIAAEgHAAAAAAAAAAAowFcHAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-10-02T21:21:28.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ToastHelper.cs",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Helpers\\ToastHelper.cs",
+              "RelativeDocumentMoniker": "LokoMaui\\Helpers\\ToastHelper.cs",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Helpers\\ToastHelper.cs",
+              "RelativeToolTip": "LokoMaui\\Helpers\\ToastHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T13:16:02.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Framework\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "LokoMaui\\Framework\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Framework\\BaseViewModel.cs",
+              "RelativeToolTip": "LokoMaui\\Framework\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T12:43:43.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IBLEConnectionService.cs",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Services\\Interfaces\\IBLEConnectionService.cs",
+              "RelativeDocumentMoniker": "LokoMaui\\Services\\Interfaces\\IBLEConnectionService.cs",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Services\\Interfaces\\IBLEConnectionService.cs",
+              "RelativeToolTip": "LokoMaui\\Services\\Interfaces\\IBLEConnectionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T11:41:54.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MyOfflineMapsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Views\\MyOfflineMapsPage.xaml",
+              "RelativeDocumentMoniker": "LokoMaui\\Views\\MyOfflineMapsPage.xaml",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Views\\MyOfflineMapsPage.xaml",
+              "RelativeToolTip": "LokoMaui\\Views\\MyOfflineMapsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-02T08:07:00.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DeviceDetailsDB.cs",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Services\\Implementations\\DeviceDetailsDB.cs",
+              "RelativeDocumentMoniker": "LokoMaui\\Services\\Implementations\\DeviceDetailsDB.cs",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Services\\Implementations\\DeviceDetailsDB.cs",
+              "RelativeToolTip": "LokoMaui\\Services\\Implementations\\DeviceDetailsDB.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwC8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T10:55:12.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DownloadMapPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Views\\DownloadMapPage.xaml.cs",
+              "RelativeDocumentMoniker": "LokoMaui\\Views\\DownloadMapPage.xaml.cs",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Views\\DownloadMapPage.xaml.cs",
+              "RelativeToolTip": "LokoMaui\\Views\\DownloadMapPage.xaml.cs",
+              "ViewState": "AgIAANwAAAAAAAAAAAAYwOcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T16:38:49.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DownloadAreaManager.cs",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Services\\DownloadAreaManager.cs",
+              "RelativeDocumentMoniker": "LokoMaui\\Services\\DownloadAreaManager.cs",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Services\\DownloadAreaManager.cs",
+              "RelativeToolTip": "LokoMaui\\Services\\DownloadAreaManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T16:38:13.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "TileDownloader.cs",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Services\\Implementations\\TileDownloader.cs",
+              "RelativeDocumentMoniker": "LokoMaui\\Services\\Implementations\\TileDownloader.cs",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Services\\Implementations\\TileDownloader.cs",
+              "RelativeToolTip": "LokoMaui\\Services\\Implementations\\TileDownloader.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAawJIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T15:16:58.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ExtendedMapsuiView.cs",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Controls\\Renderers\\ExtendedMapsuiView.cs",
+              "RelativeDocumentMoniker": "LokoMaui\\Controls\\Renderers\\ExtendedMapsuiView.cs",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Controls\\Renderers\\ExtendedMapsuiView.cs",
+              "RelativeToolTip": "LokoMaui\\Controls\\Renderers\\ExtendedMapsuiView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T13:57:49.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ExtendedMap.cs",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Controls\\Renderers\\ExtendedMap.cs",
+              "RelativeDocumentMoniker": "LokoMaui\\Controls\\Renderers\\ExtendedMap.cs",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Controls\\Renderers\\ExtendedMap.cs",
+              "RelativeToolTip": "LokoMaui\\Controls\\Renderers\\ExtendedMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T13:57:12.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ExtendedPin.cs",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Controls\\Renderers\\ExtendedPin.cs",
+              "RelativeDocumentMoniker": "LokoMaui\\Controls\\Renderers\\ExtendedPin.cs",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Controls\\Renderers\\ExtendedPin.cs",
+              "RelativeToolTip": "LokoMaui\\Controls\\Renderers\\ExtendedPin.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T13:57:03.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BaseContentPage.cs",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Framework\\BaseContentPage.cs",
+              "RelativeDocumentMoniker": "LokoMaui\\Framework\\BaseContentPage.cs",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Framework\\BaseContentPage.cs",
+              "RelativeToolTip": "LokoMaui\\Framework\\BaseContentPage.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwB0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T13:18:18.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "OSMPage.xaml",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Views\\OSMPage.xaml",
+              "RelativeDocumentMoniker": "LokoMaui\\Views\\OSMPage.xaml",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Views\\OSMPage.xaml",
+              "RelativeToolTip": "LokoMaui\\Views\\OSMPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-28T11:35:09.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "NavigationService.cs",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Services\\Implementations\\NavigationService.cs",
+              "RelativeDocumentMoniker": "LokoMaui\\Services\\Implementations\\NavigationService.cs",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Services\\Implementations\\NavigationService.cs",
+              "RelativeToolTip": "LokoMaui\\Services\\Implementations\\NavigationService.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAIwIEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T11:07:23.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ConnectionPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Views\\ConnectionPage.xaml.cs",
+              "RelativeDocumentMoniker": "LokoMaui\\Views\\ConnectionPage.xaml.cs",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Views\\ConnectionPage.xaml.cs",
+              "RelativeToolTip": "LokoMaui\\Views\\ConnectionPage.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T11:06:51.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ConnectionPage.xaml",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Views\\ConnectionPage.xaml",
+              "RelativeDocumentMoniker": "LokoMaui\\Views\\ConnectionPage.xaml",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Views\\ConnectionPage.xaml",
+              "RelativeToolTip": "LokoMaui\\Views\\ConnectionPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsBAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-28T11:06:49.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Microsoft.Maui.Resizetizer.After.targets",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.60\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.60\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.60\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.60\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ViewState": "AgIAAF0CAAAAAAAAAAAuwHYCAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-09-28T07:54:37.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppPreferences.cs",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Helpers\\AppPreferences.cs",
+              "RelativeDocumentMoniker": "LokoMaui\\Helpers\\AppPreferences.cs",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Helpers\\AppPreferences.cs",
+              "RelativeToolTip": "LokoMaui\\Helpers\\AppPreferences.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T07:51:41.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OSMPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Views\\OSMPage.xaml.cs",
+              "RelativeDocumentMoniker": "LokoMaui\\Views\\OSMPage.xaml.cs",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Views\\OSMPage.xaml.cs",
+              "RelativeToolTip": "LokoMaui\\Views\\OSMPage.xaml.cs",
+              "ViewState": "AgIAABYCAAAAAAAAAAAWwLAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T18:24:52.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PermissionService.cs",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Platforms\\Android\\PermissionService.cs",
+              "RelativeDocumentMoniker": "LokoMaui\\Platforms\\Android\\PermissionService.cs",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Platforms\\Android\\PermissionService.cs",
+              "RelativeToolTip": "LokoMaui\\Platforms\\Android\\PermissionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T18:20:14.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\App.xaml.cs",
+              "RelativeDocumentMoniker": "LokoMaui\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\App.xaml.cs",
+              "RelativeToolTip": "LokoMaui\\App.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAADwvzYAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T17:09:24.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MapPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Views\\MapPage.xaml.cs",
+              "RelativeDocumentMoniker": "LokoMaui\\Views\\MapPage.xaml.cs",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Views\\MapPage.xaml.cs",
+              "RelativeToolTip": "LokoMaui\\Views\\MapPage.xaml.cs",
+              "ViewState": "AgIAAL0AAAAAAAAAAIA6wMoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T17:06:24.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MapPage.xaml",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Views\\MapPage.xaml",
+              "RelativeDocumentMoniker": "LokoMaui\\Views\\MapPage.xaml",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Views\\MapPage.xaml",
+              "RelativeToolTip": "LokoMaui\\Views\\MapPage.xaml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAMwBIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-22T17:06:18.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LocationService.cs",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Services\\Implementations\\LocationService.cs",
+              "RelativeDocumentMoniker": "LokoMaui\\Services\\Implementations\\LocationService.cs",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\Services\\Implementations\\LocationService.cs",
+              "RelativeToolTip": "LokoMaui\\Services\\Implementations\\LocationService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwBcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T16:57:46.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Xamarin.Shared.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.iOS.Sdk.net8.0_17.5\\17.5.8030\\tools\\msbuild\\iOS\\Xamarin.Shared.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.iOS.Sdk.net8.0_17.5\\17.5.8030\\tools\\msbuild\\iOS\\Xamarin.Shared.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.iOS.Sdk.net8.0_17.5\\17.5.8030\\tools\\msbuild\\iOS\\Xamarin.Shared.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.iOS.Sdk.net8.0_17.5\\17.5.8030\\tools\\msbuild\\iOS\\Xamarin.Shared.targets",
+              "ViewState": "AgIAADICAAAAAAAAAAAAwCkCAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-09-22T16:56:08.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "LokoMaui\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\MauiProgram.cs",
+              "RelativeToolTip": "LokoMaui\\MauiProgram.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwEQAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T16:53:04.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LokoMaui",
+              "DocumentMoniker": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\LokoMaui.csproj",
+              "RelativeDocumentMoniker": "LokoMaui\\LokoMaui.csproj",
+              "ToolTip": "C:\\Users\\niyazi.piriyev\\Music\\newLoko\\newLoko\\LokoMaui\\LokoMaui.csproj",
+              "RelativeToolTip": "LokoMaui\\LokoMaui.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-22T16:51:12.628Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

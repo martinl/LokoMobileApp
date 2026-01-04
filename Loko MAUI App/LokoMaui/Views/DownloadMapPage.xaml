@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mapsui="clr-namespace:Mapsui.UI.Maui;assembly=Mapsui.UI.Maui"
+             x:Class="loko.Views.DownloadMapPage"
+             Title="DownloadMapPage">
+    <Grid>
+        <!--<mapsui:MapControl x:Name="MapControl" />-->
+
+        <mapsui:MapControl x:Name="MapControl" />
+        <!--<Button WidthRequest="40" HeightRequest="40"
+    CornerRadius="20"
+    HorizontalOptions="End" VerticalOptions="Start"
+    Margin="0,10,10,0"
+    Clicked="OnSettingsClicked">
+        <Button.ImageSource>
+            <FontImageSource Glyph="&#xf013;"
+                     FontFamily="FA-S"
+                     Size="20"
+                     Color="White"/>
+        </Button.ImageSource>
+    </Button>-->
+        <StackLayout VerticalOptions="End" Padding="20">
+            <Button Text="Download" Clicked="OnDownloadClicked" />
+            <ProgressBar x:Name="DownloadProgressBar" 
+                 Progress="0" 
+                 IsVisible="false"
+                 HeightRequest="20"
+                 VerticalOptions="Center"
+                 HorizontalOptions="Fill"
+                 ProgressColor="Blue"
+                 BackgroundColor="LightGray"
+                 Margin="0,10"/>
+            <Label x:Name="ProgressLabel" 
+           Text="" 
+           IsVisible="false" 
+           HorizontalOptions="Center"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>

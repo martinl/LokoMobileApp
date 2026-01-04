@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<framework:BaseContentPage
+    x:Class="loko.Views.ConnectionPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:loko.Controls"
+    xmlns:framework="clr-namespace:loko.Framework"
+    xmlns:ios="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific;assembly=Microsoft.Maui.Controls"
+    xmlns:models="clr-namespace:loko.Models"
+    xmlns:viewModels="clr-namespace:loko.ViewModels"
+    xmlns:xct="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    ios:Page.UseSafeArea="true"
+    x:DataType="viewModels:ConnectionPageViewModel"
+    x:TypeArguments="viewModels:ConnectionPageViewModel"
+    BackgroundColor="{StaticResource SettingsPageBackgrounColor}"
+    NavigationPage.HasNavigationBar="False">
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Your existing content goes here -->
+        <ScrollView Grid.Row="0">
+            <ContentPage.Resources>
+                <xct:InvertedBoolConverter x:Key="InvertedBoolConverter" />
+                <xct:EnumToBoolConverter x:Key="EnumToBoolConverter" />
+                <DataTemplate x:Key="ScrolableExpander">
+                    <Grid x:DataType="models:SettingsOptions" RowDefinitions="80,*, 1">
+                        <!--  HandleHeaderTapped="Expander_Tapped"  -->
+                        <xct:Expander
+            x:Name="ext"
+            Command="{Binding Command}"
+            CommandParameter="{Binding}"
+            IsEnabled="{Binding IsNeedToShowContent}"
+            IsExpanded="{Binding IsExpanded}">
+                            <xct:Expander.Header>
+                                <Grid Padding="20">
+                                    <Label
+                        FontFamily="MontserratRegularFont"
+                        FontSize="20"
+                        Text="{Binding Label}"
+                        TextColor="{DynamicResource WhiteColor}"
+                        VerticalOptions="Center" />
+                                    <Label
+                        FontSize="20"
+                        HorizontalOptions="End"
+                        IsVisible="{Binding IsNeedToShowContent, Converter={StaticResource InvertedBoolConverter}}"
+                        Text="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}, AncestorLevel=0}, Path=BindingContext.DeviceBatteryLevel, StringFormat='%{0}'}"
+                        TextColor="{DynamicResource WhiteColor}"
+                        VerticalOptions="Center" />
+                                    <Image
+                        HeightRequest="15"
+                        HorizontalOptions="End"
+                        IsVisible="{Binding IsNeedToShowContent}"
+                        Source="lokoPopUpMenuArrowDOWN.png"
+                        VerticalOptions="Center"
+                        WidthRequest="15">
+                                        <Image.Triggers>
+                                            <DataTrigger
+                                Binding="{Binding Source={RelativeSource AncestorType={x:Type xct:Expander}}, Path=IsExpanded}"
+                                TargetType="Image"
+                                Value="True">
+                                                <Setter Property="Source" Value="lokopopupmenuarrowup.png" />
+                                            </DataTrigger>
+                                        </Image.Triggers>
+                                    </Image>
+                                </Grid>
+                            </xct:Expander.Header>
+                        </xct:Expander>
+                        <ScrollView Grid.Row="1" IsVisible="{Binding IsExpanded}">
+                            <StackLayout
+                Padding="30"
+                BackgroundColor="Black"
+                BindableLayout.ItemsSource="{Binding Contents}">
+                                <BindableLayout.ItemTemplate>
+                                    <DataTemplate x:DataType="models:SettingsOptionsContent">
+                                        <SwipeView>
+                                            <SwipeView.RightItems>
+                                                <SwipeItems>
+                                                    <SwipeItem
+                                        BackgroundColor="Red"
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}, AncestorLevel=0}, Path=BindingContext.DeleteArchiveCommand}"
+                                        CommandParameter="{Binding}"
+                                        IsVisible="{Binding SettingsType, Converter={StaticResource EnumToBoolConverter}, ConverterParameter={x:Static models:SettingsType.Dates}}"
+                                        Text="DELETE" />
+                                                </SwipeItems>
+                                            </SwipeView.RightItems>
+
+                                            <Grid BackgroundColor="Black" ColumnDefinitions="120,40">
+                                                <Label
+                                    Grid.Column="0"
+                                    FontFamily="MontserratLightFont"
+                                    FontSize="16"
+                                    Text="{Binding Label, StringFormat='{0:MM/dd/yyyy}'}"
+                                    TextColor="{DynamicResource WhiteColor}" />
+                                                <Rectangle
+                                    Grid.Column="1"
+                                    HeightRequest="20"
+                                    HorizontalOptions="Start"
+                                    IsVisible="{Binding IsNeedToShowToggle}"
+                                    RadiusX="5"
+                                    RadiusY="5"
+                                    Stroke="{DynamicResource GreenTealColor}"
+                                    VerticalOptions="Start"
+                                    WidthRequest="20">
+                                                    <Rectangle.Triggers>
+                                                        <DataTrigger
+                                            Binding="{Binding IsSelected}"
+                                            TargetType="Rectangle"
+                                            Value="true">
+                                                            <Setter Property="Fill" Value="{DynamicResource GreenTealColorTransparent50}" />
+                                                        </DataTrigger>
+                                                    </Rectangle.Triggers>
+                                                </Rectangle>
+                                                <Grid.GestureRecognizers>
+                                                    <TapGestureRecognizer Command="{Binding Command}" CommandParameter="{Binding}" />
+                                                </Grid.GestureRecognizers>
+                                            </Grid>
+                                        </SwipeView>
+                                    </DataTemplate>
+                                </BindableLayout.ItemTemplate>
+                            </StackLayout>
+                        </ScrollView>
+                        <BoxView Grid.Row="2" BackgroundColor="{DynamicResource GreenTealColorTransparent50}" />
+                    </Grid>
+                </DataTemplate>
+                <DataTemplate x:Key="SimpleExpander">
+                    <Grid x:DataType="models:SettingsOptions" RowDefinitions="auto, 1">
+                        <!--  HandleHeaderTapped="Expander_Tapped"  -->
+                        <xct:Expander
+            Command="{Binding Command}"
+            CommandParameter="{Binding}"
+            IsEnabled="{Binding IsNeedToShowContent}"
+            IsExpanded="{Binding IsExpanded}">
+                            <xct:Expander.Header>
+                                <Grid Padding="20">
+                                    <Label
+                        FontFamily="MontserratRegularFont"
+                        FontSize="20"
+                        Text="{Binding Label}"
+                        TextColor="{DynamicResource WhiteColor}"
+                        VerticalOptions="Center" />
+                                    <Label
+                        FontSize="20"
+                        HorizontalOptions="End"
+                        IsVisible="{Binding IsNeedToShowContent, Converter={StaticResource InvertedBoolConverter}}"
+                        Text="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}, AncestorLevel=0}, Path=BindingContext.DeviceBatteryLevel, StringFormat='%{0}'}"
+                        TextColor="{DynamicResource WhiteColor}"
+                        VerticalOptions="Center" />
+                                    <Image
+                        HeightRequest="15"
+                        HorizontalOptions="End"
+                        IsVisible="{Binding IsNeedToShowContent}"
+                        Source="lokoPopUpMenuArrowDOWN.png"
+                        VerticalOptions="Center"
+                        WidthRequest="15">
+                                        <Image.Triggers>
+                                            <DataTrigger
+                                Binding="{Binding Source={RelativeSource AncestorType={x:Type xct:Expander}}, Path=IsExpanded}"
+                                TargetType="Image"
+                                Value="True">
+                                                <Setter Property="Source" Value="lokopopupmenuarrowup.png" />
+                                            </DataTrigger>
+                                        </Image.Triggers>
+                                    </Image>
+                                </Grid>
+                            </xct:Expander.Header>
+                            <xct:Expander.Content>
+                                <StackLayout
+                    Padding="30"
+                    BackgroundColor="Black"
+                    BindableLayout.ItemsSource="{Binding Contents}">
+                                    <BindableLayout.ItemTemplate>
+                                        <DataTemplate x:DataType="models:SettingsOptionsContent">
+                                            <Grid ColumnDefinitions="120,40">
+                                                <Label
+                                    Grid.Column="0"
+                                    FontFamily="MontserratLightFont"
+                                    FontSize="16"
+                                    Text="{Binding Label, StringFormat='{0:MM/dd/yyyy}'}"
+                                    TextColor="{DynamicResource WhiteColor}" />
+                                                <Rectangle
+                                    Grid.Column="1"
+                                    HeightRequest="20"
+                                    HorizontalOptions="Start"
+                                    IsVisible="{Binding IsNeedToShowToggle}"
+                                    RadiusX="5"
+                                    RadiusY="5"
+                                    Stroke="{DynamicResource GreenTealColor}"
+                                    VerticalOptions="Start"
+                                    WidthRequest="20">
+                                                    <Rectangle.Triggers>
+                                                        <DataTrigger
+                                            Binding="{Binding IsSelected}"
+                                            TargetType="Rectangle"
+                                            Value="true">
+                                                            <Setter Property="Fill" Value="{DynamicResource GreenTealColorTransparent50}" />
+                                                        </DataTrigger>
+                                                    </Rectangle.Triggers>
+                                                </Rectangle>
+                                                <Grid.GestureRecognizers>
+                                                    <TapGestureRecognizer Command="{Binding Command}" CommandParameter="{Binding}" />
+                                                </Grid.GestureRecognizers>
+                                            </Grid>
+                                        </DataTemplate>
+                                    </BindableLayout.ItemTemplate>
+                                </StackLayout>
+                            </xct:Expander.Content>
+                        </xct:Expander>
+                        <BoxView Grid.Row="1" BackgroundColor="{DynamicResource GreenTealColorTransparent50}" />
+                    </Grid>
+                </DataTemplate>
+                <controls:ExpanderDataTemplateSelector
+    x:Key="ExpanderDataTemplateSelector"
+    ScrolableExpander="{StaticResource ScrolableExpander}"
+    SimpleExpander="{StaticResource SimpleExpander}" />
+            </ContentPage.Resources>
+            <Grid RowDefinitions="60, *" RowSpacing="0">
+
+                <!--  Header  -->
+                <Grid
+    Grid.Row="0"
+    ColumnDefinitions="Auto, *"
+    ColumnSpacing="0">
+
+                    <Button
+        Grid.Column="0"
+        BackgroundColor="Transparent"
+        Command="{Binding GoBackCommand}"
+        FontSize="Medium"
+        HorizontalOptions="Start"
+        Text="Back"
+        TextColor="{DynamicResource WhiteColor}"
+        VerticalOptions="Center" />
+
+                    <Label
+        Grid.Column="0"
+        Grid.ColumnSpan="2"
+        FontFamily="MontserratMediumFont"
+        FontSize="Title"
+        HorizontalOptions="Center"
+        InputTransparent="True"
+        TextColor="{DynamicResource WhiteColor}"
+        VerticalOptions="Center" />
+
+                    <Grid.Padding>
+                        <OnPlatform x:TypeArguments="Thickness">
+                            <On Platform="iOS" Value="20, 10, 20, 10" />
+                            <On Platform="Droid" Value="20, 10, 20, 10" />
+                        </OnPlatform>
+                    </Grid.Padding>
+                </Grid>
+                <StackLayout
+    Grid.Row="1"
+    Padding="20"
+    BindableLayout.ItemTemplateSelector="{StaticResource ExpanderDataTemplateSelector}"
+    BindableLayout.ItemsSource="{Binding Settings}" />
+            </Grid>
+            <!-- Existing content -->
+        </ScrollView>
+
+        <!-- New buttons at the bottom -->
+        <Grid Grid.Row="1" Margin="20,10" ColumnSpacing="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="0"
+                Text="Download Map"
+                Command="{Binding DownloadMapCommand}"
+                BackgroundColor="{StaticResource Primary}"
+                TextColor="White" />
+
+            <Button Grid.Column="1"
+                Text="My Offline Maps"
+                Command="{Binding MyOfflineMapsCommand}"
+                BackgroundColor="{StaticResource Primary}"
+                TextColor="White" />
+        </Grid>
+    </Grid>
+
+
+
+
+
+    <!--<ContentPage.Resources>
+        <xct:InvertedBoolConverter x:Key="InvertedBoolConverter" />
+        <xct:EnumToBoolConverter x:Key="EnumToBoolConverter" />
+        <DataTemplate x:Key="ScrolableExpander">
+            <Grid x:DataType="models:SettingsOptions" RowDefinitions="80,*, 1">
+                --><!--  HandleHeaderTapped="Expander_Tapped"  --><!--
+                <xct:Expander
+                    x:Name="ext"
+                    Command="{Binding Command}"
+                    CommandParameter="{Binding}"
+                    IsEnabled="{Binding IsNeedToShowContent}"
+                    IsExpanded="{Binding IsExpanded}">
+                    <xct:Expander.Header>
+                        <Grid Padding="20">
+                            <Label
+                                FontFamily="MontserratRegularFont"
+                                FontSize="20"
+                                Text="{Binding Label}"
+                                TextColor="{DynamicResource WhiteColor}"
+                                VerticalOptions="Center" />
+                            <Label
+                                FontSize="20"
+                                HorizontalOptions="End"
+                                IsVisible="{Binding IsNeedToShowContent, Converter={StaticResource InvertedBoolConverter}}"
+                                Text="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}, AncestorLevel=0}, Path=BindingContext.DeviceBatteryLevel, StringFormat='%{0}'}"
+                                TextColor="{DynamicResource WhiteColor}"
+                                VerticalOptions="Center" />
+                            <Image
+                                HeightRequest="15"
+                                HorizontalOptions="End"
+                                IsVisible="{Binding IsNeedToShowContent}"
+                                Source="lokoPopUpMenuArrowDOWN.png"
+                                VerticalOptions="Center"
+                                WidthRequest="15">
+                                <Image.Triggers>
+                                    <DataTrigger
+                                        Binding="{Binding Source={RelativeSource AncestorType={x:Type xct:Expander}}, Path=IsExpanded}"
+                                        TargetType="Image"
+                                        Value="True">
+                                        <Setter Property="Source" Value="lokopopupmenuarrowup.png" />
+                                    </DataTrigger>
+                                </Image.Triggers>
+                            </Image>
+                        </Grid>
+                    </xct:Expander.Header>
+                </xct:Expander>
+                <ScrollView Grid.Row="1" IsVisible="{Binding IsExpanded}">
+                    <StackLayout
+                        Padding="30"
+                        BackgroundColor="Black"
+                        BindableLayout.ItemsSource="{Binding Contents}">
+                        <BindableLayout.ItemTemplate>
+                            <DataTemplate x:DataType="models:SettingsOptionsContent">
+                                <SwipeView>
+                                    <SwipeView.RightItems>
+                                        <SwipeItems>
+                                            <SwipeItem
+                                                BackgroundColor="Red"
+                                                Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}, AncestorLevel=0}, Path=BindingContext.DeleteArchiveCommand}"
+                                                CommandParameter="{Binding}"
+                                                IsVisible="{Binding SettingsType, Converter={StaticResource EnumToBoolConverter}, ConverterParameter={x:Static models:SettingsType.Dates}}"
+                                                Text="DELETE" />
+                                        </SwipeItems>
+                                    </SwipeView.RightItems>
+
+                                    <Grid BackgroundColor="Black" ColumnDefinitions="120,40">
+                                        <Label
+                                            Grid.Column="0"
+                                            FontFamily="MontserratLightFont"
+                                            FontSize="16"
+                                            Text="{Binding Label, StringFormat='{0:MM/dd/yyyy}'}"
+                                            TextColor="{DynamicResource WhiteColor}" />
+                                        <Rectangle
+                                            Grid.Column="1"
+                                            HeightRequest="20"
+                                            HorizontalOptions="Start"
+                                            IsVisible="{Binding IsNeedToShowToggle}"
+                                            RadiusX="5"
+                                            RadiusY="5"
+                                            Stroke="{DynamicResource GreenTealColor}"
+                                            VerticalOptions="Start"
+                                            WidthRequest="20">
+                                            <Rectangle.Triggers>
+                                                <DataTrigger
+                                                    Binding="{Binding IsSelected}"
+                                                    TargetType="Rectangle"
+                                                    Value="true">
+                                                    <Setter Property="Fill" Value="{DynamicResource GreenTealColorTransparent50}" />
+                                                </DataTrigger>
+                                            </Rectangle.Triggers>
+                                        </Rectangle>
+                                        <Grid.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding Command}" CommandParameter="{Binding}" />
+                                        </Grid.GestureRecognizers>
+                                    </Grid>
+                                </SwipeView>
+                            </DataTemplate>
+                        </BindableLayout.ItemTemplate>
+                    </StackLayout>
+                </ScrollView>
+                <BoxView Grid.Row="2" BackgroundColor="{DynamicResource GreenTealColorTransparent50}" />
+            </Grid>
+        </DataTemplate>
+        <DataTemplate x:Key="SimpleExpander">
+            <Grid x:DataType="models:SettingsOptions" RowDefinitions="auto, 1">
+                --><!--  HandleHeaderTapped="Expander_Tapped"  --><!--
+                <xct:Expander
+                    Command="{Binding Command}"
+                    CommandParameter="{Binding}"
+                    IsEnabled="{Binding IsNeedToShowContent}"
+                    IsExpanded="{Binding IsExpanded}">
+                    <xct:Expander.Header>
+                        <Grid Padding="20">
+                            <Label
+                                FontFamily="MontserratRegularFont"
+                                FontSize="20"
+                                Text="{Binding Label}"
+                                TextColor="{DynamicResource WhiteColor}"
+                                VerticalOptions="Center" />
+                            <Label
+                                FontSize="20"
+                                HorizontalOptions="End"
+                                IsVisible="{Binding IsNeedToShowContent, Converter={StaticResource InvertedBoolConverter}}"
+                                Text="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}, AncestorLevel=0}, Path=BindingContext.DeviceBatteryLevel, StringFormat='%{0}'}"
+                                TextColor="{DynamicResource WhiteColor}"
+                                VerticalOptions="Center" />
+                            <Image
+                                HeightRequest="15"
+                                HorizontalOptions="End"
+                                IsVisible="{Binding IsNeedToShowContent}"
+                                Source="lokoPopUpMenuArrowDOWN.png"
+                                VerticalOptions="Center"
+                                WidthRequest="15">
+                                <Image.Triggers>
+                                    <DataTrigger
+                                        Binding="{Binding Source={RelativeSource AncestorType={x:Type xct:Expander}}, Path=IsExpanded}"
+                                        TargetType="Image"
+                                        Value="True">
+                                        <Setter Property="Source" Value="lokopopupmenuarrowup.png" />
+                                    </DataTrigger>
+                                </Image.Triggers>
+                            </Image>
+                        </Grid>
+                    </xct:Expander.Header>
+                    <xct:Expander.Content>
+                        <StackLayout
+                            Padding="30"
+                            BackgroundColor="Black"
+                            BindableLayout.ItemsSource="{Binding Contents}">
+                            <BindableLayout.ItemTemplate>
+                                <DataTemplate x:DataType="models:SettingsOptionsContent">
+                                    <Grid ColumnDefinitions="120,40">
+                                        <Label
+                                            Grid.Column="0"
+                                            FontFamily="MontserratLightFont"
+                                            FontSize="16"
+                                            Text="{Binding Label, StringFormat='{0:MM/dd/yyyy}'}"
+                                            TextColor="{DynamicResource WhiteColor}" />
+                                        <Rectangle
+                                            Grid.Column="1"
+                                            HeightRequest="20"
+                                            HorizontalOptions="Start"
+                                            IsVisible="{Binding IsNeedToShowToggle}"
+                                            RadiusX="5"
+                                            RadiusY="5"
+                                            Stroke="{DynamicResource GreenTealColor}"
+                                            VerticalOptions="Start"
+                                            WidthRequest="20">
+                                            <Rectangle.Triggers>
+                                                <DataTrigger
+                                                    Binding="{Binding IsSelected}"
+                                                    TargetType="Rectangle"
+                                                    Value="true">
+                                                    <Setter Property="Fill" Value="{DynamicResource GreenTealColorTransparent50}" />
+                                                </DataTrigger>
+                                            </Rectangle.Triggers>
+                                        </Rectangle>
+                                        <Grid.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding Command}" CommandParameter="{Binding}" />
+                                        </Grid.GestureRecognizers>
+                                    </Grid>
+                                </DataTemplate>
+                            </BindableLayout.ItemTemplate>
+                        </StackLayout>
+                    </xct:Expander.Content>
+                </xct:Expander>
+                <BoxView Grid.Row="1" BackgroundColor="{DynamicResource GreenTealColorTransparent50}" />
+            </Grid>
+        </DataTemplate>
+        <controls:ExpanderDataTemplateSelector
+            x:Key="ExpanderDataTemplateSelector"
+            ScrolableExpander="{StaticResource ScrolableExpander}"
+            SimpleExpander="{StaticResource SimpleExpander}" />
+    </ContentPage.Resources>
+    <Grid RowDefinitions="60, *" RowSpacing="0">
+
+        --><!--  Header  --><!--
+        <Grid
+            Grid.Row="0"
+            ColumnDefinitions="Auto, *"
+            ColumnSpacing="0">
+
+            <Button
+                Grid.Column="0"
+                BackgroundColor="Transparent"
+                Command="{Binding GoBackCommand}"
+                FontSize="Medium"
+                HorizontalOptions="Start"
+                Text="Back"
+                TextColor="{DynamicResource WhiteColor}"
+                VerticalOptions="Center" />
+
+            <Label
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                FontFamily="MontserratMediumFont"
+                FontSize="Title"
+                HorizontalOptions="Center"
+                InputTransparent="True"
+                Text="GROUND UNIT"
+                TextColor="{DynamicResource WhiteColor}"
+                VerticalOptions="Center" />
+
+            <Grid.Padding>
+                <OnPlatform x:TypeArguments="Thickness">
+                    <On Platform="iOS" Value="20, 10, 20, 10" />
+                    <On Platform="Droid" Value="20, 10, 20, 10" />
+                </OnPlatform>
+            </Grid.Padding>
+        </Grid>
+        <StackLayout
+            Grid.Row="1"
+            Padding="20"
+            BindableLayout.ItemTemplateSelector="{StaticResource ExpanderDataTemplateSelector}"
+            BindableLayout.ItemsSource="{Binding Settings}" />
+    </Grid>-->
+</framework:BaseContentPage>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<framework:BaseContentPage
+    x:Class="loko.Views.OSMPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:framework="clr-namespace:loko.Framework"
+    xmlns:mapsui="clr-namespace:Mapsui.UI.Maui;assembly=Mapsui.UI.Maui"
+    xmlns:models="clr-namespace:loko.Models"
+    xmlns:renderers="clr-namespace:loko.Controls.Renderers"
+    xmlns:viewModels="clr-namespace:loko.ViewModels"
+    xmlns:xct="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    x:DataType="viewModels:MapViewModel"
+    x:TypeArguments="viewModels:MapViewModel"
+    NavigationPage.HasNavigationBar="False">
+    <Grid x:Name="MainGrid">
+        <mapsui:MapView
+            x:Name="mapsuiView"
+            VerticalOptions="Fill"
+            HorizontalOptions="Fill"
+            BackgroundColor="LightBlue"/>
+        <ImageButton
+            Padding="10"
+            BackgroundColor="Transparent"
+            Command="{Binding SettingsCommand}"
+            HeightRequest="60"
+            HorizontalOptions="Start"
+            Source="lokomenu"
+            VerticalOptions="Start"
+            WidthRequest="60">
+
+            <ImageButton.Margin>
+                <OnPlatform x:TypeArguments="Thickness">
+                    <On Platform="iOS" Value="0, 40, 10, 0" />
+                    <On Platform="Android" Value="10, 25, 10, 0" />
+                </OnPlatform>
+            </ImageButton.Margin>
+        </ImageButton>
+
+        <ImageButton
+            Padding="2"
+            BackgroundColor="Transparent"
+            Command="{Binding ShowUserLocationCommand}"
+            CornerRadius="20"
+            HeightRequest="40"
+            HorizontalOptions="End"
+            Source="locationicon"
+            VerticalOptions="End"
+            WidthRequest="40">
+
+            <ImageButton.Margin>
+                <OnPlatform x:TypeArguments="Thickness">
+                    <On Platform="iOS" Value="0, 0, 10, 60" />
+                    <On Platform="Android" Value="0, 0, 10, 30" />
+                </OnPlatform>
+            </ImageButton.Margin>
+        </ImageButton>
+        <!--  xct:CornerRadiusEffect.CornerRadius="5"  -->
+        <Grid
+            Padding="2"
+            BackgroundColor="Transparent"
+            ColumnDefinitions="auto"
+            HorizontalOptions="Start"
+            VerticalOptions="End">
+            <Grid.Margin>
+                <OnPlatform x:TypeArguments="Thickness">
+                    <On Platform="iOS" Value="20, 60, 20, 60" />
+                    <On Platform="Android" Value="20,30" />
+                </OnPlatform>
+            </Grid.Margin>
+            <Frame
+                Grid.Row="0"
+                Padding="0"
+                BackgroundColor="{StaticResource InfoWindowBackgroundColorTr80}"
+                BorderColor="{StaticResource GreenTealColor}"
+                CornerRadius="5"
+                HasShadow="False">
+                <StackLayout>
+                    <xct:Expander x:Name="exp" IsExpanded="True">
+                        <xct:Expander.Header>
+                            <Grid
+                                Padding="5"
+                                ColumnDefinitions="20,100 "
+                                HorizontalOptions="Center">
+                                <Label
+                                    Grid.Column="1"
+                                    FontFamily="MontserratRegularFont"
+                                    FontSize="16"
+                                    HorizontalOptions="Center"
+                                    Text="DEVICES"
+                                    TextColor="{DynamicResource WhiteColor}"
+                                    VerticalOptions="Center" />
+                                <Image
+                                    Grid.Column="0"
+                                    HeightRequest="15"
+                                    HorizontalOptions="Center"
+                                    Source="lokopopupmenuarrowup.png"
+                                    VerticalOptions="Center"
+                                    WidthRequest="15">
+                                    <Image.Triggers>
+                                        <DataTrigger
+                                            Binding="{Binding Source={RelativeSource AncestorType={x:Type xct:Expander}}, Path=IsExpanded}"
+                                            TargetType="Image"
+                                            Value="True">
+                                            <Setter Property="Source" Value="lokopopupmenuarrowdown.png" />
+                                        </DataTrigger>
+                                    </Image.Triggers>
+                                </Image>
+                            </Grid>
+                        </xct:Expander.Header>
+                    </xct:Expander>
+                    <ScrollView IsVisible="{Binding Source={x:Reference Name=exp}, Path=IsExpanded}">
+                        <StackLayout Padding="0" BindableLayout.ItemsSource="{Binding DevicesList}">
+                            <BindableLayout.ItemTemplate>
+                                <DataTemplate x:DataType="models:DeviceModel">
+                                    <Grid
+                                        ColumnDefinitions="20, 100"
+                                        HeightRequest="40"
+                                        Padding="10,0,10,0"
+                                        HorizontalOptions="Center"
+                                        VerticalOptions="Center">
+                                        <Image
+                                            Grid.Column="0"
+                                            HorizontalOptions="Center"
+                                            Source="lokovisible.png"
+                                            VerticalOptions="Center"
+                                            WidthRequest="15">
+                                            <Image.Triggers>
+                                                <DataTrigger
+                                                    Binding="{Binding IsSelected}"
+                                                    TargetType="Image"
+                                                    Value="false">
+                                                    <Setter Property="Source" Value="lokoinvisible.png" />
+                                                </DataTrigger>
+                                                <DataTrigger
+                                                    Binding="{Binding IsSelected}"
+                                                    TargetType="Image"
+                                                    Value="true">
+                                                    <Setter Property="Source" Value="lokovisible.png" />
+                                                </DataTrigger>
+                                            </Image.Triggers>
+                                        </Image>
+                                        <Label
+                                            Grid.Column="1"
+                                            FontFamily="MontserratLightFont"
+                                            FontSize="16"
+                                            HorizontalOptions="Center"
+                                            Text="{Binding Label, StringFormat='ID_{0}'}"
+                                            TextColor="{DynamicResource WhiteColor}"
+                                            VerticalOptions="Center" />
+                                        <Grid.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}, AncestorLevel=0}, Path=BindingContext.SelectDeviceCommand}" CommandParameter="{Binding}" />
+                                        </Grid.GestureRecognizers>
+                                    </Grid>
+                                </DataTemplate>
+                            </BindableLayout.ItemTemplate>
+                        </StackLayout>
+                    </ScrollView>
+                </StackLayout>
+            </Frame>
+        </Grid>
+    </Grid>
+</framework:BaseContentPage>

@@ -1,0 +1,54 @@
+﻿<Properties RosettaInstaller.DontShowAgain="True" StartupConfiguration="{0EAAEBC0-6B3A-411A-8F45-FA3F52A36BC7}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="34.0.143" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <Debugger.DebugSourceFolders />
+  <MonoDevelop.Ide.ItemProperties.LokoMaui PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LokoMaui/Platforms/Android/AndroidManifest.xml">
+    <Files>
+      <File FileName="LokoMaui/App.xaml" />
+      <File FileName="LokoMaui/Platforms/Android/AndroidManifest.xml" />
+      <File FileName="../../../../usr/local/share/dotnet/packs/Microsoft.iOS.Sdk.net8.0_18.0/18.0.8303/tools/msbuild/iOS/Xamarin.Shared.targets" />
+      <File FileName="LokoMaui/Models/BLEDeviceDetails.cs" />
+      <File FileName="LokoMaui/Helpers/CustomTileSource.cs" />
+      <File FileName="LokoMaui/Services/Implementations/BLEConnectionService.cs" />
+      <File FileName="LokoMaui/Platforms/Android/CustomMapHandler.cs" />
+      <File FileName="LokoMaui/Platforms/Android/CustomInfoWindowClickListener.cs" />
+      <File FileName="LokoMaui/Platforms/Android/CustomMapsuiHandler.cs" />
+      <File FileName="LokoMaui/Platforms/Android/CustomMarkerClickListener.cs" />
+      <File FileName="LokoMaui/Views/MapPage.xaml" />
+      <File FileName="LokoMaui/Controls/CustomToggle.xaml" />
+      <File FileName="LokoMaui/Controls/Renderers/ExtendedPin.cs" />
+      <File FileName="LokoMaui/Controls/Renderers/ExtendedMap.cs" />
+      <File FileName="LokoMaui/Controls/Renderers/ExtendedMapsuiView.cs" />
+      <File FileName="LokoMaui/Framework/BaseViewModel.cs" />
+      <File FileName="LokoMaui/Framework/BaseContentPage.cs" />
+      <File FileName="LokoMaui/Platforms/iOS/CustomMapHandler.cs" />
+      <File FileName="LokoMaui/Platforms/Android/PermissionService.cs" />
+      <File FileName="LokoMaui/Platforms/Android/MapCallbackHandler.cs" />
+      <File FileName="LokoMaui/Platforms/Android/MainApplication.cs" />
+      <File FileName="LokoMaui/Platforms/Android/MainActivity.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="loko" expanded="True">
+            <Node name="LokoMaui">
+              <Node name="Platforms" expanded="True">
+                <Node name="Android" expanded="True">
+                  <Node name="AndroidManifest.xml" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Views" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
