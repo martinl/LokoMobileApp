@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net8.0-ios;net8.0-android</TargetFrameworks>
+		<TargetFrameworks>net10.0-ios;net10.0-android</TargetFrameworks>
 		<!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
 		<!-- <TargetFrameworks>$(TargetFrameworks);net8.0-tizen</TargetFrameworks> -->
 
@@ -22,8 +22,8 @@
 		<!-- Display name -->
 		<ApplicationTitle>loko</ApplicationTitle>
 
-		<!-- App Identifier -->
-		<ApplicationId>test</ApplicationId>
+		<!-- App Identifier (set this to your app's reverse DNS identifier, e.g. com.example.loko) -->
+		<ApplicationId>com.example.loko</ApplicationId>
 
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
