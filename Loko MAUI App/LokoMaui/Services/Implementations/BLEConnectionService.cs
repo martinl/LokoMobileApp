@@ -247,6 +247,7 @@ namespace loko.Services.Implementations
                         }
 
                         device.Details = location;
+                        DeviceBatteryLevel = batteryLevel;
                     }
                 }
             }
